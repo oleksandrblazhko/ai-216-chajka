@@ -13,7 +13,7 @@ Create table monitor ( m_id integer,  model char(20), year integer);
 Insert into monitor values (1, 'Asus', 2020); 
 
 ###У відповідності із варіантом з таблиці 16 додати рядок в реляційну таблицю
-
+![image](https://github.com/oleksandrblazhko/ai-216-chajka/blob/Laboratory-work-11/Laboratory-work-11/2.2.1.jpg)
 ###Створити файл з назвою за шаблоном «ваше прізвище_transaction_lock_1.sql», наприклад, blazhko_transaction_lock_1.sql, та додати до нього операції двох транзакцій, кожна з яких повинна включати наступні операції: 
 	операція блокування для протоколу 1-го ступеня блокування; 
 	операція читання всіх стовпчиків першого рядку таблиці; 
@@ -24,4 +24,4 @@ Insert into monitor values (1, 'Asus', 2020);
 ###У двох псевдотерміналах виконати операції транзакцій при їх квазіпаралельному режимі роботи за умови, що одна з транзакція стартує першою. 
 
 ###Повторити роботу транзакцій, але у першій транзакції замість операції фіксації виконати операцію скасування всіх операцій транзакції. 
-
+![image](https://github.com/oleksandrblazhko/ai-216-chajka/blob/Laboratory-work-11/Laboratory-work-11/2.3.jpg)
